@@ -36,9 +36,9 @@ for tok in without_ws:
     print(tok)
 print()
 
-LT = r'(?P<LT><'
-LE = r'(?P<LE><='
-GT = r'(?P<GT>>'
+LT = r'(?P<LT><)'
+LE = r'(?P<LE><=)'
+GT = r'(?P<GT>>)'
 
 # regex matches in order specified...!
 # master_pat = re.compile('|'.join([LT, LE, GT]))  # Incorrect
